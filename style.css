@@ -1,0 +1,371 @@
+@font-face {
+    font-family: Alien Cyborg;
+    src: url(fuentes/Alien\ Cyborg.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono-Regular;
+    src: url(fuentes/SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Extraterrestre;
+    src: url(fuentes/Extraterrestre.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #179959;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: space-around;
+    padding: 1em;
+    align-items: center;
+    font-size: 20px;
+    font-family: Alien Cyborg;
+    color: #014029;
+    letter-spacing: 0.8em;
+    cursor: pointer;
+}
+
+.aliencito{
+    width: 120px;
+}
+
+.lupita{
+    width: 40px;
+    color: #014029;
+    cursor: pointer;
+}
+
+.pepito{
+    width: 40px;
+    color: #014029;
+}
+
+.menucito{
+    width: 45px;
+    color: #014029;
+    cursor: pointer;
+}
+
+#banner{
+    width: 100%;
+    background-image: url(imagenes/Peña\ de\ Juaica.jpeg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    line-height: 1.3;
+    text-align: center;
+}
+
+#banner h1{
+    font-size: 200px;
+    letter-spacing: 20px;
+    font-family: Alien Cyborg;
+    color: #50FF42;
+    text-shadow: -10px 0px 7px #179959;
+}
+
+#banner h3{
+    font-size: 45px;
+    line-height: 2em;
+    font-family: Extraterrestre;
+    color: #014029;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.2);
+    letter-spacing: 0.3em;
+}
+
+#banner p{
+    font-size: 20px;
+    line-height: 2;
+    font-family: SpaceMono-Regular;
+    color: white;
+    background-color:rgba(0,0,0,0.4);    
+}
+
+
+.sc1{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+}
+
+.sc1box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 4em;
+    margin: 100px;
+}
+
+.peñita{
+    width: 510px;
+    border: 2px solid #50FF42;
+    padding: 20px;
+}
+
+.panoramica{
+    width: 510px;
+    border: 2px solid #50FF42;
+    padding: 20px;
+}
+
+.sc1 h3{
+    font-size: 65px;
+    line-height: 2em;
+    font-family: Alien Cyborg;
+    letter-spacing: 0.2em;
+    color: #0DAD27;
+    text-shadow: -10px 0px 7px black;
+}
+
+.sc1 p{
+    font-size: 15px;
+    line-height: 2em;
+    font-family: SpaceMono-Regular;
+    color: black;
+    text-align: center;
+    border: 2px solid #50FF42;
+    padding: 20px;
+}
+
+
+.sc2{
+    width: 100%;
+    background-color: #179959;
+}
+
+.sc2 h3{
+    font-size: 65px;
+    text-align: center;
+    font-family: Alien Cyborg;
+    letter-spacing: 0.3em;
+    color: #50FF42;
+    text-shadow: -10px 0px 7px black;
+    padding: 1em;
+}
+
+.primero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.sc2boxprimero{
+    margin: 150px;
+}
+
+.primero h5{
+    font-size: 40px;
+    font-family: Alien Cyborg;
+    letter-spacing: 0.3em;
+    line-height: 3em;
+    color: #014029;
+    text-shadow: -10px 0px 7px #50FF42;
+}
+
+.primero p{
+    font-size: 16px;
+    font-family: SpaceMono-Regular;
+    color: black;
+    line-height: 3em;
+    text-align: left;
+}
+
+.senderito{
+    width: 510px;
+    margin-right: 150px;
+}
+
+.segundo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: right;
+    background-color: white;
+}
+
+.sc2boxsegundo{
+    margin: 150px;
+}
+
+.segundo h5{
+    font-size: 40px;
+    font-family: Alien Cyborg;
+    letter-spacing: 0.3em;
+    color: #014029;
+    line-height: 3em;
+    text-shadow: -10px 0px 7px #50FF42;
+}
+
+.segundo p{
+    font-size: 16px;
+    font-family: SpaceMono-Regular;
+    line-height: 3em;
+    text-align: right;
+}
+
+.extraterrestres{
+    width: 510px;
+    margin-left: 150px;
+}
+
+.tercero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.sc2boxtercero{
+    margin: 150px;
+}
+
+.tercero h5{
+    font-size: 40px;
+    font-family: Alien Cyborg;
+    letter-spacing: 0.3em;
+    color: #014029;
+    line-height: 3em;
+    text-shadow: -10px 0px 7px #50FF42;
+}
+
+.tercero p{
+    font-size: 16px;
+    font-family: SpaceMono-Regular;
+    line-height: 3em;
+    text-align: left;
+}
+
+.espitirus{
+    width: 510px;
+    margin-right: 150px;
+}
+
+
+.sc3{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    display: flex;  
+}
+
+.sc3box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 4em;
+    margin: 150px;
+}
+
+.alienitos{
+    width: 410px;
+    border: 2px solid #50FF42;
+    padding: 20px;
+}
+
+.mapita{
+    width: 480px;
+    border: 2px solid #50FF42;
+    padding: 20px;
+    height: 280px;
+}
+
+.sc3 h3{
+    font-size: 50px;
+    line-height: 2em;
+    font-family: Alien Cyborg;
+    letter-spacing: 0.2em;
+    color: #0DAD27;
+    text-shadow: -10px 0px 7px black;
+}
+
+.sc3 p{
+    font-size: 15px;
+    line-height: 2em;
+    font-family: SpaceMono-Regular;
+    color: black;
+    text-align: center;
+    border: 2px solid #50FF42;
+    padding: 20px;
+}
+
+
+
+#pie-pagina{
+    background-color: #179959;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opciones{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #014029;
+    font-size: 30px;
+    font-family: Alien Cyborg;
+    margin-top: 3.5em;
+}
+
+.papita{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logitos{
+    width: 30%;
+    list-style: none;
+    display: grid;
+    margin-top: 4.5em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.CUATRO{
+    width: 70px;
+}
+
+.SEIS{
+    width: 350px;
+}
+
+.sep{
+    height: 66px;
+    width: 1px;
+    background: #fff;
+}
+
+.vuelta{
+    align-items: center;
+    text-align: center;
+    padding: 6em;
+    border-bottom: #014029;
+    text-decoration: #0DAD27;
+}
